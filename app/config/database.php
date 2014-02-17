@@ -55,12 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'thedevsv2',
+			'database'  => 'thedevs.org',
 			'username'  => 'root',
 			'password'  => '',
-			// 'database'  => 'thedmaea_thedevs',
-			// 'username'  => 'thedmaea_tim',
-			// 'password'  => 'timo4257.',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
