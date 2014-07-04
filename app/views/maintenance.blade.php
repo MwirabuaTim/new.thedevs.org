@@ -17,8 +17,8 @@
 			margin: 0px auto;
 		}
 		.mid h1{
-			margin-top: 20%;
-			color: white;
+			margin-top: 10%;
+			color: #333;
 		}
     </style>
 
@@ -27,8 +27,9 @@
     @include('partials.matrix')
 
     <div class="mid">
-         <h1>{{ strtoupper("Website under maintenance!") }}</h1>
-    </div>
+        <h1>{{ strtoupper("Website is under maintenance!") }}</h1>
+		<p>Kindly check back after a week :)</p>
+	</div>
 
 </body>
 </html>

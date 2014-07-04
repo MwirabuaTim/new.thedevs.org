@@ -30,7 +30,7 @@
 
 el = document.createElement('div');
 el.setAttribute("id", "matrix");
-el.innerText = "Check back after a week :)";
+el.innerText = "CODERHUNT";
 var rows=31; // must be an odd number
 var speed=50; // lower is faster
 var reveal=2; // between 0 and 2 only. The higher, the faster the word appears
@@ -56,7 +56,7 @@ var m_copo=new Array();
 			ma_tab=document.createElement("table");
 			ma_tab.setAttribute("border", 0);
 			ma_tab.setAttribute("align", effectalign);
-			ma_tab.style.backgroundColor="#000000";
+			ma_tab.style.backgroundColor="#fff";
 			ma_bod=document.createElement("tbody");
 			for (x=0; x<rows; x++) {
 				ma_row=document.createElement("tr");
@@ -143,7 +143,7 @@ var m_copo=new Array();
 					mtmp=document.all["Mx"+ytmp+"y"+ycol];
 					mtmp.innerHTML=m_coch[ycol];
 				}
-				mtmp.style.color="#33ff66";
+				mtmp.style.color="#000";
 				mtmp.style.fontWeight="bold";
 			}
 			if (Math.random()<reveal) {
