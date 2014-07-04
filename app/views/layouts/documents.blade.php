@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>
-        {{ $document->title }} :: TheDevs.org
+        {{ $document->title }} :: CoderHunt
     </title>
     <meta name="description" content="TheDevs.Org maps and connects Developers, Organizations, Events, Projects & Stories in Tech Worldwide.">
     <meta name="viewport" content="width=device-width">
@@ -62,7 +62,7 @@
             <div class="_header _center">
 			    <div class="_top-left _in-block">
 			        <span class="_logo">
-			            <a href="{{ URL::to('/') }}" class="_aqua-hover-text">T<span class="small">HE</span>D<span class="small">EVS.</span>O<span class="small">RG</span></a>
+			            <a href="{{ URL::to('/') }}" class="_aqua-hover-text">C<span class="small">ODER</span>H<span class="small">UNT</span></a>
 			        </span>
 			        <!-- <span class="_tagline">Where Developers Connect</span> -->
 			        
@@ -94,7 +94,10 @@
 
                     <fieldset class="_sweet-tooth _bottom10">
                         <legend class="_welcome _center">
-                            <span>Global Developer's Marketplace</span>
+                            <!-- <span>Global Developer's Marketplace</span> -->
+                            <!-- <span>Mapping Software Developers Worldwide</span> -->
+                            <!-- <span>Location-based Freelance Developer Marketplace</span> -->
+                            <span>Find The Best Coders Locally</span>
                         </legend>
                     </fieldset>
 
@@ -140,9 +143,8 @@
     <script type="text/javascript">
 
     $(document).ready(function(){
-          // custom scrollbar
+        // custom scrollbar
         $("html").niceScroll({styler:"fb",cursorcolor:"#55ffaa", cursorwidth: '6', cursorborderradius: '10px', background: 'transparent', spacebarenabled:false,  cursorborder: '', zindex: '1000', autohidemode: false});
-
     });
 
 

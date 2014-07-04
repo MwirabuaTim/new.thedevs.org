@@ -30,9 +30,9 @@
 
 el = document.createElement('div');
 el.setAttribute("id", "matrix");
-el.innerText = "TechyTimo";
+el.innerText = "Check back after a week :)";
 var rows=31; // must be an odd number
-var speed=100; // lower is faster
+var speed=50; // lower is faster
 var reveal=2; // between 0 and 2 only. The higher, the faster the word appears
 var effectalign="default" //enter "center" to center it.
 

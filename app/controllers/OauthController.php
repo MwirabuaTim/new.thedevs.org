@@ -10,6 +10,7 @@ class OauthController extends BaseController {
 
 	public function session()
 	{
+	    return Response::json(array("log"=>"no code set"));
 	    if(Request::segment(2) == 'facebook'){
 	    	$provider = OAuth2::provider('facebook', array(
 	        'id' => '494491330565385',
@@ -22,6 +23,7 @@ class OauthController extends BaseController {
 	    //     'secret' => '1dd38781d55ed1825724e433ef1ce6e3',
 	   	// 	));
 	    // }
+	    
 	    if(Request::segment(2) == 'google'){
 	    	$provider = OAuth2::provider('google', array(
 	        'id' => '406188381495-cil9u3fcb7jtu3hq2idinp3s92qvr8f6.apps.googleusercontent.com',
@@ -64,7 +66,7 @@ class OauthController extends BaseController {
 	            // Here you should use this information to A) look for a user B) help a new user sign up with existing data.
 	            // If you store it all in a cookie and redirect to a registration page this is crazy-simple.
 
-	            // return Response::json($data);
+	            return Response::json($data);
 	            // return $data['email'];
 	            // return User::where('email', $data['email'])->first();
 	            // return Profile::where('uid', $data['uid'])->first();

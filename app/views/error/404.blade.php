@@ -11,7 +11,7 @@
 @stop
 
 @section('js')
-	@include('partials.errorjs')
+	 <!-- @ include('partials.errorjs') -->
 @stop
 
 @section('transparent')
