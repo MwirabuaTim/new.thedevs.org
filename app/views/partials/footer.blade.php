@@ -6,7 +6,7 @@
         <!-- <li class="link"><a href="{{ URL::to('contactus') }}">&#8226;&nbsp;Contact Us&nbsp;</a></li> -->
     </ul>
     <ul class="_nav">
-        <li>Website Under Maintenance... Kindly visit after a week.</li>
+        <li>Website Under Maintenance! Sign up to be notified when we relaunch :)</li>
     </ul>
 
     <div class="_follow _in-block">
