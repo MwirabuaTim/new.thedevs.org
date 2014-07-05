@@ -27,7 +27,7 @@
     @include('partials.matrix')
 
     <div class="mid">
-        <h1>{{ strtoupper("Website is under maintenance!") }}</h1>
+        <h1>{{ strtoupper("Website under maintenance") }}</h1>
 		<p>Kindly check back after a week :)</p>
 	</div>
 
