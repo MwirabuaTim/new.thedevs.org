@@ -19,20 +19,22 @@ body{
 	background-color: #333;
 }
 
-._footer{
-	display: inline-block;
-	padding-bottom: 15px;
+._footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
 	background-color: black;
 	border-top: 5px solid #55FFAA;
-	width: 100%;
-	margin-top: 10px;
-	margin-bottom: -5px;
 }
 ._footer ._nav{
 	position: relative;
 	top: 20px;
-	padding-bottom: 10px;
 	float: left;
+}
+
+._footer>*{
+	padding-bottom: 20px;
 }
 ._footer ._follow{
 	float: right;
@@ -65,10 +67,11 @@ body{
 ._footer a{
 	color: white;
 }
-._middle{
+._middle {
+	position: absolute;
+	min-height: 100%;
+	margin-left: 5%;
 	width: 90%;
-	margin: 0px auto;
-	/*margin-left: 5%;*/
 }
 
 .page-header {
@@ -132,7 +135,7 @@ img{
 	color: white;
 }
 ._logo {
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 45px;
 }
 ._logo a{
@@ -164,9 +167,10 @@ ul._nav li{
 
 ul._top-right{
 	position: absolute;
-	right: 5%;
+	right: 0px;
 	top: 10px;
 }
+
 ul._top-right li{
 	margin: 10px 0px 10px 10px;
 }
@@ -674,11 +678,14 @@ input._search{
 /*.tail:hover {
 	border-color: green pink white transparent;
 }*/
-#map-container{
-	height: 290px;
-	/*width: calc(100% - 200px);*/
-	/*float: left;*/
+#map-container {
+	position: absolute;
+	height: 70%;
+	width: 100%;
+	/*width: calc(100% - 230px);*/
+	/* float: left; */
 }
+
 #thedevsmap{
 	height: 100%;
 }
@@ -1275,7 +1282,7 @@ img._profile-pic{
 }
 span.links{
 	display:none;
-	background: rgba(0, 0, 0, 0.5);
+	/*background: rgba(0, 0, 0, 0.5);*/
 	padding: 10px;
 }
 .slide-out-div {

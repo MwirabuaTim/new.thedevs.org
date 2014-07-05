@@ -89,10 +89,11 @@
             <div class="fb-like" id="fblike" data-href="http://thedevs.org" data-send="false" 
             data-width="450" data-show-faces="false"></div>
 
+            @include('partials.footer')
+            
         </div>
         <!-- ./ middle stuff -->
 
-        @include('partials.footer')
 
         @include('partials.modals')
         <img class="preload hidden" alt="Loading..."  src="{{ asset('images/loadingbar.gif') }}">
@@ -102,7 +103,7 @@
     <ol id="demo" style="display:none" data-joyride> 
     
       <!-- This tip will be display as a modal -->
-      <li><h3>Welcome to TheDevs.Org</h3></li>
+      <li><h3>Welcome to CoderHunt</h3></li>
       <li data-class="devs" data-options="tipLocation:right"><h3>
         Awesome and Proffessional Dev Profiles from all over the world...</h3></li>
       <li data-class="projects" data-options="tipLocation:right"><h3>

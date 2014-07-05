@@ -2,10 +2,10 @@
 
   <?php $dd = All::getAllModels() ?>
 
-  <div class="_brick pull-right">
+  <div class="_brick pull-right hide">
     <div class="devs{{ Request::is('devs') ? ' active': ''}}">
-      <a href="/devs"><div class="_strip">DEVELOPERS<span>({{ count($dd[0]) }})</span></div>
-      <!-- <a href="/devs"><div class="_strip">DEVELOPERS<span>({{-- Dev::all()->count() --}})</span></div> -->
+      <a href="/devs"><div class="_strip">CODERS<span>({{ count($dd[0]) }})</span></div>
+      <!-- <a href="/devs"><div class="_strip">CODERS<span>({{-- Dev::all()->count() --}})</span></div> -->
       <!-- <div class="_tail"></div> --></a>
     </div>
     <div class="orgs{{ Request::is('orgs') ? ' active': ''}}">
@@ -24,8 +24,8 @@
       <!-- <div class="_tail"></div> --></a>
     </div>
      <div class="stories{{ Request::is('stories') ? ' active': ''}}">
-      <a href="/stories"><div class="_strip">STORIES<span>({{ count($dd[4]) }})</span></div>
-      <!-- <a href="/stories"><div class="_strip">STORIES<span>({{-- Story::all()->count() --}})</span></div> -->
+      <a href="/stories"><div class="_strip">POSTS<span>({{ count($dd[4]) }})</span></div>
+      <!-- <a href="/stories"><div class="_strip">POSTS<span>({{-- Story::all()->count() --}})</span></div> -->
       <!-- <div class="_tail"></div> --></a>
     </div>
   </div>
