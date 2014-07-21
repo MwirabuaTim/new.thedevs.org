@@ -921,7 +921,7 @@ $(document).ready(function(){
     }
   });
 
-  _holder = 'Search  "PHP", "JavaScript", "Java", "Android", "Ruby" etc near you...';
+  _holder = 'Search "PHP", "JavaScript", "Java", "Android", "Ruby" etc...';
   $('._search').click(function(){
       // console.log(this.value);
       if (this.value==_holder) this.value=''

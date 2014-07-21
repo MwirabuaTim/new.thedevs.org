@@ -3,7 +3,7 @@
         <span class="_logo">
             <a href="{{ URL::to('/') }}" class="_aqua-hover-text">C<span class="small">ODER</span>H<span class="small">UNT</span></a>
         </span>
-        <span class="_tagline">Find The Best Coders Locally!</span>
+        <span class="_tagline">Find Good Coders Locally!</span>
         
     </div>
 
