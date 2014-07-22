@@ -23,8 +23,8 @@ class DevsController extends BaseController {
 	{
 		$devs = $this->dev->orderBy('created_at', 'desc')->where('activated', 1)->paginate(15);
 
+		return Redirect::route('home');
 		return View::make('devs.index', compact('devs'));
-		// return View::make('home');
 	}
 
 	/**
@@ -74,6 +74,7 @@ class DevsController extends BaseController {
 
 	public function show($id)
 	{
+		return Redirect::route('home');
 		$dev = $this->dev->findOrFail($id);
 
 		if(All::checkViewRight($dev)):
