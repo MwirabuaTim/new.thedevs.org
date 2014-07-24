@@ -100,6 +100,11 @@ Route::get('concept', function(){
 	$footer  = false;
 	return View::make('layouts.documents', compact('document', 'footer'));
 });
+
+Route::get('budget', function(){ 
+	return Redirect::to('https://docs.google.com/spreadsheet/ccc?key=0AsJeS9ycEE3BdFdqcU1mN0x2ZUxUV082dDl5eUNMcWc&usp=sharing');
+});
+
 Route::get('about', function(){ 
 	$document = Document::find(2);
 	$footer  = true;

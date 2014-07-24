@@ -162,6 +162,8 @@ class AuthController extends BaseController {
 	 *
 	 * @return Redirect
 	 */
+
+
 	public function postSignup()
 	{
 		$input = Input::all();
