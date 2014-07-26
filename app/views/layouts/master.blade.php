@@ -11,7 +11,7 @@
             CoderHunt
         @show
     </title>
-    <meta name="description" content="TheDevs.Org maps and connects Developers, Organizations, Events, Projects & Stories in Tech Worldwide.">
+    <meta name="description" content="CoderHunt helps you find the best coders locally.">
     <meta name="viewport" content="width=device-width">
     <meta property="og:image" 
     content="{{ isset($og_image) ? $og_image : asset('images/devs/favicon-7.png') }}" />
