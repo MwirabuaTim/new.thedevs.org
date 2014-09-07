@@ -125,7 +125,7 @@
         <h3>Contact me</h3>
         <p><a href="https://twitter.com/intent/tweet?&screen_name=techytimo&hashtags=thedevsorg" target="_blank">
         @techytimo</a></p>
-        <p>tim@thedevs.org</p>
+        <p>techytimo@gmail.com</p>
         <p>+254711451409</p>
     </div>
 
